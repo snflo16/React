@@ -2,6 +2,10 @@
 
 [toc]
 
+- node js 다운로드
+
+  https://nodejs.org/ko/download/
+
 - CRA(create-react-app)
 
   (https://chanyeong.com/blog/post/42)
@@ -27,3 +31,19 @@ node -v # node.js 버전 확인
 create-react-app "name" # name이란 이름의 프로젝트 생성
 cd "name" # name이란 이름의 프로젝트로 접근
 yarn start # react 실행, react는 기본 3000번 port 사용
+```
+
+
+
+## 구조
+
+![image-20210803020802204](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210803020802204.png)
+
+- App.js : 화면 출력을 담당하는 부분
+
+![image-20210803021323068](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210803021323068.png)
+
+- public/index.html의 id="root"인 div에 App.js가 출력
+
+![image-20210803021616388](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210803021616388.png)
+
